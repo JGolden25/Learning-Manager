@@ -1,5 +1,7 @@
 import NonDashboardNavbar from "@/components/NonDashboardNavbar";
 import Landing from "@/app/(nondashboard)/landing/page";
+import Footer from "@/components/Footer";
+
 
 export default function Home() {
   return (
@@ -7,6 +9,8 @@ export default function Home() {
    <NonDashboardNavbar />
       <main className="nondashboard-layout__main">
         <Landing />
-      </main>    </div>
+      </main>  
+      <Footer />
+      </div>
   );
 }
